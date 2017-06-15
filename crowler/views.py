@@ -14,4 +14,4 @@ def main(request):
         if 'href' in link.attrs:
             dict[link.attrs['href']] = link.contents[0]
 
-    return render(request, 'crowler/index.html', {'dict':dict})
+    return render(request, 'crowler/index.html', {'dict':dict}) 
